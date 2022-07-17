@@ -59,9 +59,9 @@ Official Website: <https://news.yahoo.co.jp/pages/article/20200207>
 
 ## Darwin Awards
 
-### Articles
+### Award Winners
 
-<RouteEn author="zoenglinghou" example="/darwinawards/all" path="/darwinawards/all" />
+<RouteEn author="zoenglinghou nciztzk" example="/darwinawards" path="/darwinawards" />
 
 ## dcinside
 
@@ -135,6 +135,12 @@ Official Website: <https://news.yahoo.co.jp/pages/article/20200207>
 | story | recipes | tips-and-techniques |
 
 </RouteEn>
+
+## Lever
+
+### Recruitment
+
+<RouteEn author="tsarlewey" example="/lever/lever" path="/lever/:domain" :paramsDesc="['Company with Lever Board']"/>
 
 ## MITRE
 
