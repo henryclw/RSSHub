@@ -1,6 +1,62 @@
 {
   "163.com": {
     "_name": "网易",
+    ".": [
+      {
+        "title": "网易号（通用）",
+        "docs": "https://docs.rsshub.app/new-media.html#wang-yi-hao",
+        "source": [
+          "/dy/media/:id",
+          "/news/sub/:id"
+        ]
+      }
+    ],
+    "3g": [
+      {
+        "title": "网易号（通用）",
+        "docs": "https://docs.rsshub.app/new-media.html#wang-yi-hao",
+        "source": [
+          "/dy/media/:id",
+          "/news/sub/:id"
+        ]
+      },
+      {
+        "title": "独家栏目",
+        "docs": "https://docs.rsshub.app/new-media.html#wang-yi-du-jia-lan-mu",
+        "source": [
+          "/touch/exclusive/sub/:id"
+        ],
+        "target": "/163/exclusive/:id?"
+      }
+    ],
+    "c.m": [
+      {
+        "title": "网易号（通用）",
+        "docs": "https://docs.rsshub.app/new-media.html#wang-yi-hao",
+        "source": [
+          "/dy/media/:id",
+          "/news/sub/:id"
+        ]
+      }
+    ],
+    "ds": [
+      {
+        "title": "大神",
+        "docs": "https://docs.rsshub.app/game.html#wang-yi-da-shen",
+        "source": "/user/:id",
+        "target": "/163/ds/:id"
+      }
+    ],
+    "m": [
+      {
+        "title": "今日关注",
+        "docs": "https://docs.rsshub.app/new-media.html#wang-yi-xin-wen-jin-ri-guan-zhu",
+        "source": [
+          "/"
+        ],
+        "target": "/163/today"
+      }
+    ],
     "music": [
       {
         "title": "云音乐 - 用户歌单",
@@ -18,9 +74,59 @@
         "source": "/"
       },
       {
+        "title": "云音乐 - 歌手歌曲",
+        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
+        "source": "/"
+      },
+      {
         "title": "云音乐 - 电台节目",
         "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
         "source": "/"
+      },
+      {
+        "title": "用户动态",
+        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue-yong-hu-dong-tai",
+        "source": [
+          "/"
+        ]
+      }
+    ],
+    "news": [
+      {
+        "title": "排行榜",
+        "docs": "https://docs.rsshub.app/new-media.html#wang-yi-xin-wen-pai-hang-bang"
+      }
+    ],
+    "renjian": [
+      {
+        "title": "人间",
+        "docs": "https://docs.rsshub.app/new-media.html#wang-yi-xin-wen-ren-jian",
+        "source": [
+          "/:category",
+          "/"
+        ],
+        "target": "/163/renjian/:category?"
+      }
+    ],
+    "vip.open": [
+      {
+        "title": "公开课 精品课程",
+        "docs": "https://docs.rsshub.app/study.html#wang-yi-gong-kai-ke",
+        "source": [
+          "/"
+        ],
+        "target": "/163/open/vip"
+      }
+    ],
+    "wp.m": [
+      {
+        "title": "今日关注",
+        "docs": "https://docs.rsshub.app/new-media.html#wang-yi-xin-wen",
+        "source": [
+          "/163/html/newsapp/todayFocus/index.html",
+          "/"
+        ],
+        "target": "/163/today"
       }
     ],
     "y.music": [
@@ -40,12 +146,16 @@
         "source": "/m/album"
       },
       {
-        "title": "云音乐 - 播单声音",
+        "title": "云音乐 - 电台节目",
         "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
         "source": [
           "/m/radio",
           "/m/djradio"
         ]
+      },
+      {
+        "title": "用户动态",
+        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue-yong-hu-dong-tai"
       }
     ]
   },
@@ -956,6 +1066,20 @@
       }
     ]
   },
+  "aeaweb.org": {
+    "_name": "American Economic Association",
+    ".": [
+      {
+        "title": "Journal",
+        "docs": "https://docs.rsshub.app/journal.html#american-economic-association-journal",
+        "source": [
+          "/journals/:id",
+          "/"
+        ],
+        "target": "/aeaweb/:id"
+      }
+    ]
+  },
   "agemys.cc": {
     "_name": "AGE动漫",
     ".": [
@@ -1313,6 +1437,20 @@
           "/"
         ],
         "target": "/android/platform-tools-releases"
+      }
+    ]
+  },
+  "annualreviews.org": {
+    "_name": "Annual Reviews",
+    ".": [
+      {
+        "title": "Journal",
+        "docs": "https://docs.rsshub.app/journal.html#annual-reviews-journal",
+        "source": [
+          "/journal/:id",
+          "/"
+        ],
+        "target": "/annualreviews/:id"
       }
     ]
   },
@@ -4085,7 +4223,7 @@
         "title": "Notes",
         "docs": "https://docs.rsshub.app/social-media.html#crossbell",
         "source": "/*",
-        "target": "/notes"
+        "target": "/crossbell/notes"
       }
     ]
   },
@@ -4096,7 +4234,7 @@
         "title": "Notes",
         "docs": "https://docs.rsshub.app/social-media.html#crossbell",
         "source": "/*",
-        "target": "/notes/source/xlog"
+        "target": "/crossbell/notes/source/xlog"
       }
     ]
   },
@@ -4342,6 +4480,41 @@
         "docs": "https://docs.rsshub.app/bbs.html#dcard",
         "source": "/f/:section",
         "target": "/dcard/:section/popular"
+      }
+    ]
+  },
+  "dcfever.com": {
+    "_name": "DCFever",
+    ".": [
+      {
+        "title": "新聞中心",
+        "docs": "https://docs.rsshub.app/new-media.html#dcfever",
+        "source": [
+          "/news/index.php",
+          "/"
+        ]
+      },
+      {
+        "title": "測試報告",
+        "docs": "https://docs.rsshub.app/new-media.html#dcfever",
+        "source": [
+          "/:type/reviews.php"
+        ],
+        "target": "/dcfever/reviews/:type"
+      },
+      {
+        "title": "二手市集",
+        "docs": "https://docs.rsshub.app/new-media.html#dcfever",
+        "source": [
+          "/trading/listing.php"
+        ]
+      },
+      {
+        "title": "二手市集 - 物品搜尋",
+        "docs": "https://docs.rsshub.app/new-media.html#dcfever",
+        "source": [
+          "/trading/search.php"
+        ]
       }
     ]
   },
@@ -5941,6 +6114,31 @@
           "/forum/:id"
         ],
         "target": "/feng/forum/:id"
+      }
+    ]
+  },
+  "fffdm.com": {
+    "_name": "风之动漫",
+    "manhua": [
+      {
+        "title": "在线漫画",
+        "docs": "https://docs.rsshub.app/anime.html#feng-zhi-dong-man",
+        "source": [
+          "/manhua/:id",
+          "/:id"
+        ],
+        "target": "/fffdm/manhua/:id"
+      }
+    ],
+    "www": [
+      {
+        "title": "在线漫画",
+        "docs": "https://docs.rsshub.app/anime.html#feng-zhi-dong-man",
+        "source": [
+          "/manhua/:id",
+          "/:id"
+        ],
+        "target": "/fffdm/manhua/:id"
       }
     ]
   },
@@ -8644,6 +8842,16 @@
       }
     ]
   },
+  "hrbust.edu.cn": {
+    "_name": "哈尔滨理工大学",
+    "jwzx": [
+      {
+        "title": "教务处",
+        "docs": "https://docs.rsshub.app/university.html#ha-er-bin-li-gong-da-xue",
+        "source": "/homepage/*"
+      }
+    ]
+  },
   "huangz.me": {
     "_name": "黄健宏博客",
     "blog": [
@@ -8665,6 +8873,19 @@
         "docs": "https://docs.rsshub.app/traditional-media.html#huan-qiu",
         "source": "/",
         "target": "/news/huanqiu/:category?"
+      }
+    ]
+  },
+  "hunanpea.com": {
+    "_name": "湖南人事考试网",
+    "rsks": [
+      {
+        "title": "公告",
+        "docs": "https://docs.rsshub.app/study.html#hu-nan-ren-shi-kao-shi-wang",
+        "source": [
+          "/Category/:guid/ArticlesByCategory.do"
+        ],
+        "target": "/hunanpea/rsks/:guid"
       }
     ]
   },
@@ -9187,6 +9408,18 @@
           "/toc/msom/0/0"
         ],
         "target": "/informs/msom"
+      }
+    ]
+  },
+  "inoreader.com": {
+    "_name": "Inoreader",
+    ".": [
+      {
+        "title": "HTML Clip",
+        "docs": "https://docs.rsshub.app/reading.html#inoreader",
+        "source": [
+          "/stream/user/:user/tag/:tag/*"
+        ]
       }
     ]
   },
@@ -14528,6 +14761,19 @@
       }
     ]
   },
+  "phoronix.com": {
+    "_name": "Phoronix",
+    ".": [
+      {
+        "title": "新闻与评测",
+        "docs": "https://docs.rsshub.app/new-media.html#phoronix",
+        "source": [
+          "/*"
+        ],
+        "target": "/phoronix/news"
+      }
+    ]
+  },
   "pianyuan.org": {
     "_name": "片源网",
     ".": [
@@ -17699,6 +17945,14 @@
           "/"
         ],
         "target": "/thepaper/featured"
+      },
+      {
+        "title": "侧边栏",
+        "docs": "https://docs.rsshub.app/traditional-media.html#peng-pai-xin-wen-ce-bian-lan",
+        "source": [
+          "/"
+        ],
+        "target": "/thepaper/sidebar"
       },
       {
         "title": "频道",
